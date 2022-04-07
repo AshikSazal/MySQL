@@ -1,0 +1,14 @@
+// General format of query
+
+
+SELECT
+col1,col2,... 
+FROM
+table1 
+[INNER|LEFT|RIGHT] JOIN
+table2 ON conditions
+WHERE conditions
+GROUP BY col1
+HAVING group_conditions
+ORDER BY col1
+LIMIT offse, length;
